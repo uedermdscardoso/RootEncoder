@@ -5,7 +5,7 @@ plugins {
   alias(libs.plugins.android.library) apply false
   alias(libs.plugins.jetbrains.kotlin) apply false
   alias(libs.plugins.jetbrains.dokka) apply true
-  `maven-publish`
+  kotlin("jvm") version "2.1.0" // A versão do Kotlin pode variar
 }
 
 publishing {
