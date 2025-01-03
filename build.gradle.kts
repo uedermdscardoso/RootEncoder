@@ -28,9 +28,9 @@ publishing {
   }
 }
 
-tasks.register("clean") {
+/*tasks.register("clean") {
   delete(layout.buildDirectory)
-}
+}*/
 
 tasks.dokkaHtmlMultiModule.configure {
   outputDirectory.set(File("docs"))
