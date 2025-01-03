@@ -1,4 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+group = "com.one.plugin"
+version = "2.5.5"  
 
 plugins {
   alias(libs.plugins.android.application) apply false
