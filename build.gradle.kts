@@ -8,7 +8,7 @@ plugins {
   alias(libs.plugins.jetbrains.kotlin) apply false
   alias(libs.plugins.jetbrains.dokka) apply true
   kotlin("jvm") version "2.1.0" // A versão do Kotlin pode variar
- `maven-publish` // Necessário para o bloco 'publishing'
+  id("maven-publish") // Necessário para o bloco 'publishing'
 }
 
 publishing {
