@@ -24,6 +24,10 @@ publishing {
   }
   publications {
     create<MavenPublication>("gpr") {
+      groupId = "com.one.plugin"
+      artifactId = "root-encoder"
+      version = "2.5.5" 
+     
       from(components["kotlin"])
       //from(components["java"])
     }
